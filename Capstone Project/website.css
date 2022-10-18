@@ -1,0 +1,243 @@
+body{
+  margin: 10%;
+  margin-top: 5%;
+  background-color: black; /* i changed the background in black as i think it would make the website look good  */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+label{
+  color: white;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+.add-cart{
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.add-cart:hover { /* this will change the color to green when hover the add-cart*/
+  background-color: yellow;
+  color: red;
+}
+
+span.price{
+ color: red;
+ font-size: 20px; 
+ margin-left: 25px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p{
+  font-size: 14px;
+  color: white;
+}
+
+u{
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+img{
+  border: 2px solid black;
+  padding: 5px;
+  height: 450px;
+}
+
+.cart{
+  text-align:right;
+}
+
+.cart ion-icon{
+  vertical-align: bottom;
+  font-size: 23px;
+}
+
+.cart a{
+  background-color: royalblue;  
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: right;
+}
+
+.web{
+  background-color: royalblue;
+  font-size: 18px;
+  color: white;
+}
+
+/*.....cart page....*/
+
+.products-container {
+  width: 50%;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  display: flex;
+  colr: white;
+}
+
+.product-header {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 5px solid lightgrey;
+  margin-left: 70px;
+  margin-right: 90px;
+}
+
+.product-title {
+  width: 23%;
+  margin-right: 70px;
+}
+
+.price{
+  color: white;
+  margin-right: 90px;
+  margin-left: 100px;
+  width: 4%;
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  align-items: center; 
+}
+
+.quantity{
+  color: white;
+  margin-left: 80px;
+  margin-right: 10px;
+  width: 4%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.total{
+  color: white;               
+   margin-left: 100px;
+  margin-right: 10px;
+  width: 4%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.products{
+  color: white;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  border-bottom:1px solid lightgrey ;
+}
+
+
+.products {
+  color: white;
+  width: 75%;
+  flex-wrap: wrap;
+}
+
+.products img{
+  width: 70px;   
+  height: 70px;
+}
+
+.basketTotalContainer{
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  margin-top: 30px;
+  color: white;
+}
+
+.basketTotalTitle{
+  margin-left: 1%;
+  width:40%;
+  color: brown;
+}
+
+.basketTotal{
+  margin-left: 1%;
+  width:40%;
+  color: white;
+}
+
+select {
+  font-size: 16px;
+  background-color: chocolate;
+}
+
+.data1{
+  display: none;
+}
+
+.data2 {  
+  display: none;
+  color: white;
+}
+
+
+.vat{
+  margin-top: 1px;
+  margin-left: 270%;
+  width:40%;
+  color: brown;
+}
+
+.total1{
+
+  margin-left: 265%;
+  width:40%;
+}
+
+a { 
+  color: white; 
+}
+
+div#nav { 
+  position: relative; 
+}
+
+div#nav a { 
+  padding: 5px 15px 5px; 
+}
+
+.dropdown-toggle { 
+  background: blue; 
+}
+
+ul.dropdown { 
+display: none; 
+position: absolute; 
+top: 100%;
+background: gray; 
+}
+
+ul.dropdown li {  
+  list-style-type: none; 
+}
+
+ul.dropdown li a { 
+  text-decoration: none; padding: 0em 1em; display: block;
+   }
+

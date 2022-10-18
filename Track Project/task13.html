@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body{
+      background-image:url('bg.png');
+      background-repeat: no-repeat;
+      margin: 150px;
+      display:block;
+    }
+
+    input{
+      width: 250px;
+      height: 20px;
+    }
+
+    label{
+      font-size: 20px;
+    }
+
+    select{
+      font-size: 40px;
+      margin: 10px;
+    }
+
+    button{
+    font-size: 14px;
+    background-color: lightgreen;
+  }
+
+  button:hover{
+    background-color: yellow;
+  }
+
+  </style>
+
+
+</head>
+
+<body onload="myMusic()">
+  <h1> Welcome to my Page</h1>
+  <br><br><br><br>
+<form>
+        <label for="artName">Artist: </label> &nbsp
+        <input type="text" name="artName" id="artName" required><br><br>
+        <label for="title1"> Title: </label>              &nbsp &nbsp
+        <input type="text" name="title1" id="title1" required> <br><br>     
+        <label for="album1">Album: </label>
+        <input type="text" name="album1" id="album1" required><br><br>
+
+        <select id="genre1">
+
+            <option value="">Genre</option>
+            <option value="Hip-Hop">Hip-Hop</option>
+            <option value="rnb">Rnb</option>
+            <option value="Reggae">Reggae</option>
+            <option value="Zouk">Zouk</option>
+            <option value="Jazz">Jazz</option>
+            <option value="Rock">Rock</option>
+            <option value="Country Music">Country Music</option>
+            <option value="Classic">Classic</option>
+                  
+        </select> 
+  &nbsp &nbsp &nbsp
+        <button type="button" onclick="addMusic()">Add Music</button><br><br><br>
+    </form>
+
+    <table id="musicList">
+    
+    </table>
+
+    <script type="text/javascript" src="task13.js"></script>
+</body>
+</html>
